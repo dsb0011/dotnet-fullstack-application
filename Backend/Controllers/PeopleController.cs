@@ -51,7 +51,6 @@ public class PeopleController : ControllerBase
     }
   }
 
-
   [HttpGet("{id:int}", Name = "Getperson")] // GET REQUEST /api/people/1
   public async Task<IActionResult> GetPerson(int id)
   {
